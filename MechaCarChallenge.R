@@ -7,3 +7,8 @@ lm_mechacar_mpg <- lm(formula = mpg ~ vehicle_length + vehicle_weight + spoiler_
 lm_mechacar_mpg
 summary_lm_mechacar_mpg <- summary(lm_mechacar_mpg)
 summary_lm_mechacar_mpg
+suspension_coil_df <- read_csv('Suspension_Coil.csv') #import dataset
+total_summary <- suspension_coil_df %>% summarise(Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), SD = sd(PSI), .groups = 'keep') #create summary table
+total_summary
+lot_summary <- suspension_coil_df %>% group_by(Manufacturing_Lot) %>% summarise(Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), SD = sd(PSI), .groups = 'keep') #create summary table
+lot_summary
