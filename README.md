@@ -14,9 +14,11 @@ The purpose of this statistical analysis is to perform multiple linear regressio
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.
 The current manufacturing data meets this design specification for all manufacturing lots in total. In fact, the mean is almost equal to the median.
+
 ![total_summary](https://github.com/StessyG/MechaCar_Statistical_Analysis/blob/3a9d97effb464201840f7b8ddc46d0116b970d00/images/total_summary.png)
 
 Individually, Lot1 and Lot2 are within the design specification, but Lot3 does not meet that specification as it shows the most variance(Variance = 170).
+
 ![lot_summary](https://github.com/StessyG/MechaCar_Statistical_Analysis/blob/b32252c00b1c0e4c9de7f7c211121621e0e527b2/images/lot_summary.png)
 
 ## T-Tests on Suspension Coils
@@ -25,17 +27,21 @@ The t-test results show that Lot1 and Lot2 PSI values are nearly equal to the me
 Results are shown below:
 
 .ALL:
+
 ![Manufacturing lots](https://github.com/StessyG/MechaCar_Statistical_Analysis/blob/b32252c00b1c0e4c9de7f7c211121621e0e527b2/images/t-test%20all.png)
 
 .LOT1:
+
 ![Lot1](https://github.com/StessyG/MechaCar_Statistical_Analysis/blob/b32252c00b1c0e4c9de7f7c211121621e0e527b2/images/t-test%201.png)
 
 
 .LOT2:
+
 ![Lot2](https://github.com/StessyG/MechaCar_Statistical_Analysis/blob/b32252c00b1c0e4c9de7f7c211121621e0e527b2/images/t-test%202.png)
 
 
 .LOT3:
+
 ![Lot3](https://github.com/StessyG/MechaCar_Statistical_Analysis/blob/b32252c00b1c0e4c9de7f7c211121621e0e527b2/images/t-test%203.png)
 
 
