@@ -12,3 +12,7 @@ total_summary <- suspension_coil_df %>% summarise(Mean = mean(PSI), Median = med
 total_summary
 lot_summary <- suspension_coil_df %>% group_by(Manufacturing_Lot) %>% summarise(Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), SD = sd(PSI), .groups = 'keep') #create summary table
 lot_summary
+t.test(suspension_coil_df$PSI,mu=1500)
+lot1 <- subset(suspension_coil_df, Manufacturing_Lot=="Lot1")
+lot2 <- subset(suspension_coil_df, Manufacturing_Lot=="Lot2")
+lot3 <- subset(suspension_coil_df, Manufacturing_Lot == "Lot3")
