@@ -47,8 +47,8 @@ Results are shown below:
 
 ## Study Design: MechaCar vs Competition
 
-
+What metric or metrics are you going to test?
 When buying a car, the main metrics people consider are the horsepower, the safety rating, the engine power and the fuel economy(mpg). 
-For this study, the null hypothesis would be testing and comparing the performance of Mechacar metrics values to its competitors' performance.
+For this study, we would test the fuel economy(mpg), the engine power and the safety rating of the vehicles. The null hypothesis would be testing and comparing the performance of Mechacar metrics values to its competitors' performance.
 The statistical analysis can be done using t-tests on all metrics values.
 An ANOVA test can be performed as well on each metric value by comparing the means of all manufacturers.
