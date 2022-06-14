@@ -2,7 +2,7 @@
 
 ## Overview of the project
 
-The purpose of this statistical analysis is to perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes.In addition, summary statistics were performed on the pounds per square inch of the suspension coils from the manufacturing lots. Statistical t-tests were used to determine if the manufacturing lots are statistically different from the mean population.Finally, a statistical study is designed to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers.
+The purpose of this statistical analysis is to perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes. In addition, summary statistics were performed on the pounds per square inch of the suspension coils from the manufacturing lots. Statistical t-tests were used to determine if the manufacturing lots are statistically different from the mean population. Finally, a statistical study is designed to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers.
 
 ## Linear Regression to Predict MPG
 
